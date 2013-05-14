@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fontDarkRed">#ffaa0000</color>
+    <color name="fontYellow">#ffffffcd</color>
+    <color name="fontRed">#ff9c0000</color>
+    <color name="fontDarkGrey">#ff1b1c1b</color>
+    <color name="fontGrey">#ff454545</color>
+    <color name="fontLightGrey">#ff888888</color>
+    <color name="fontWidgetGrey">#ffb7b7b7</color>
+    <color name="fontHomeGrey">#ffd4cab9</color>
+    <color name="fontNearWhite">#ffdddddd</color>
+    <color name="fullScreenImageBackground">#ff000000</color>
+    <color name="listViewBackground">#99000000</color>
+    <color name="portraitToLandscapeBackground">#ff000000</color>
+    <color name="searchTexteBackground">#ff2b2c2b</color>
+    <color name="searchRealityTexteBackground">#99313031</color>
+    <color name="opaqueScreen">#aa000000</color>
+    <color name="blue_light">#ff33b5e5</color>
+    <color name="blue_dark">#ff0099cc</color>
+    <color name="purple_light">#ffaa66cc</color>
+    <color name="purple_dark">#ff9933cc</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="green_dark">#ff669900</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="orange_dark">#ffff8800</color>
+    <color name="red_light">#ffff4444</color>
+    <color name="rojo_mapa">#ffff4444</color>
+   	<color name="granate_fondo">#5c1c29</color>
+    <color name="red_dark">#ffcc0000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="white_near">#fff6f6f6</color>
+    <color name="grey">#ffa0a0a0</color>
+    <color name="grey_light">#ffbfbfbf</color>
+    <color name="grey_dark">#ff444444</color>
+    <color name="photo_mix_opaque_screen_background">#cc000000</color>
+    <color name="button_stroke_color">#66000000</color>
+    <color name="button_bg_start_color">#ffa0a0a0</color>
+    <color name="button_bg_end_color">#fff6f6f6</color>
+    <color name="button_dark_bg_start_color">#ff777777</color>
+    <color name="button_dark_bg_end_color">#ff000000</color>
+    <color name="button_bg_pressed_start_color">#ffffbb33</color>
+    <color name="button_bg_pressed_end_color">#ffff8800</color>
+    <item type="color" name="popup_line_color">@color/white</item>
+    <item type="color" name="popup_line_color_focused">@color/white</item>
+    <item type="color" name="popup_bg_start_color_focused">@color/red_light</item>
+    <item type="color" name="popup_bg_end_color_focused">@color/red_dark</item>
+    
+    <drawable name="focused">#ff5500</drawable>
+    <drawable name="selected">#FF00FF</drawable>
+</resources>
+

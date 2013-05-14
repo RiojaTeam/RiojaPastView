@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    
+   <fragment
+		android:id="@+id/map"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		class="com.google.android.gms.maps.MapFragment"
+	/>
+   
+   <LinearLayout
+       
+       android:id="@+id/linearLayout1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentRight="true"
+       android:orientation="horizontal"
+       android:layout_marginTop="5dip"
+       android:layout_marginRight="5dip"
+       
+   >
+   
+   <Button
+		android:id="@+id/buttonNormalMap"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="0dip"
+		android:padding="0dip"
+		
+		android:text="@string/callejero"
+		android:textColor="#AA000000"
+		android:textSize="10sp"
+		android:background="#CCFFFFFF"
+		android:drawableTop="@drawable/callejero" />
+
+	<Button
+		android:id="@+id/buttonSateliteMap"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_margin="0dip"
+		android:padding="0dip"
+       
+		android:text="@string/satelite"
+		android:textColor="#AA000000"
+		android:textSize="10sp"
+   		android:background="#CCFFFFFF"
+       	android:drawableTop="@drawable/da_layer_satellite" />
+	
+	<Button
+		android:id="@+id/buttonReiniciar"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_margin="0dip"
+		android:padding="0dip"
+       	android:background="#CCFFFFFF"
+		android:text="@string/reiniciar_mapa"
+		android:textColor="#AA000000"
+		android:textSize="10sp"
+   
+       	android:drawableTop="@drawable/reiniciar_mapa" />
+         
+	</LinearLayout>
+
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:minHeight="100dip"
+       android:minWidth="150dip"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"
+       android:text="TextView" />
+
+</RelativeLayout>

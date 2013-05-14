@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:clickable="true"
+  android:descendantFocusability="blocksDescendants"
+  >
+  
+     <ImageView
+        android:id="@+id/itemListaAccesiblesMarco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        android:adjustViewBounds="true"       
+        android:focusableInTouchMode="false"
+		android:clickable="false"
+		android:focusable="false"
+		android:src="@drawable/marco"
+		android:layout_marginLeft="0dip"
+         />
+
+    <ImageView
+        android:id="@+id/itemListaAccesiblesFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11.75dip"
+        android:layout_marginTop="9.25dip"
+        android:adjustViewBounds="true"
+        android:maxWidth="91.0dip"
+        android:maxHeight="56.5dip"
+        android:minWidth="91.0dip"
+        android:minHeight="56.5dip"
+        android:contentDescription="@string/app_name"
+	 />
+    
+     <TextView
+        android:id="@+id/itemListaAccesiblesNombre"
+        android:layout_width="75.0dip"
+        android:layout_height="15.0dip"
+        android:layout_marginLeft="40.0dip"
+        android:layout_marginTop="47.0dip"
+        android:text="@string/app_name"
+        style="@style/FuentePequenaNegro"
+        android:focusableInTouchMode="false"
+		android:clickable="false"
+		android:focusable="false"
+		android:paddingTop="0dip"
+		android:paddingBottom="0dip"
+		android:paddingRight="0dip"
+		android:paddingLeft="3dip"
+		android:background="@drawable/img_global_content_background_2"
+        />
+
+  
+</RelativeLayout>

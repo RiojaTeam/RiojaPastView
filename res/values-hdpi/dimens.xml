@@ -1,0 +1,29 @@
+<!-- values-hdpi -->
+<resources>
+    
+   	<dimen name="radar_width">159dp</dimen>
+   	<dimen name="radar_height">161dp</dimen>
+    <dimen name="radar_left_margin">85dp</dimen>
+    <dimen name="radar_bottom_margin">95dp</dimen>
+    
+    <dimen name="brujula_width">169dp</dimen>
+   	<dimen name="brujula_height">172dp</dimen>
+    <dimen name="brujula_left_margin">75dp</dimen>
+    <dimen name="brujula_bottom_margin">11dp</dimen>
+    
+    <dimen name="foto_width">150dp</dimen>
+   	<dimen name="foto_height">130dp</dimen>
+    <dimen name="foto_left_margin">84dp</dimen>
+    <dimen name="foto_bottom_margin">28dp</dimen>
+    
+    <dimen name="brujula_width_land">134dp</dimen>
+   	<dimen name="brujula_height_land">134dp</dimen>
+   	<dimen name="brujula_left_land_margin">11dp</dimen>
+    <dimen name="brujula_bottom_land_margin">61dp</dimen>
+    
+    <dimen name="foto_width_land">110dp</dimen>
+   	<dimen name="foto_height_land">110dp</dimen>
+    <dimen name="foto_left_land_margin">20dp</dimen>
+    <dimen name="foto_bottom_land_margin">74dp</dimen>
+
+</resources>

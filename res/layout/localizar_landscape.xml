@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    > 
+    
+   <fragment
+		android:id="@+id/map"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		class="com.google.android.gms.maps.MapFragment"
+	/>
+   
+   <LinearLayout
+       
+       android:id="@+id/linearLayout1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentRight="true"
+       android:orientation="horizontal"
+       android:layout_marginTop="5dip"
+       android:layout_marginRight="5dip"
+       
+   >
+   
+   <Button
+		android:id="@+id/buttonCallejero"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="0dip"
+		android:padding="0dip"
+		
+		android:text="@string/callejero"
+		android:textColor="#AA000000"
+		android:textSize="10sp"
+		android:background="#CCFFFFFF"
+		android:drawableTop="@drawable/callejero" />
+
+	<Button
+		android:id="@+id/buttonTraffic"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_margin="0dip"
+		android:padding="0dip"
+       
+		android:text="@string/satelite"
+		android:textColor="#AA000000"
+		android:textSize="10sp"
+   		android:background="#CCFFFFFF"
+       	android:drawableTop="@drawable/da_layer_satellite" />
+         
+	</LinearLayout>
+
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:minHeight="100dip"
+       android:minWidth="150dip"
+       android:text="@string/app_name" />
+
+   <ImageView
+       android:id="@+id/imageView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:adjustViewBounds="true"
+       android:layout_margin="0dip"
+       android:src="@drawable/madera_panel_landscape"
+       android:contentDescription="@string/app_name"
+       
+       />
+
+      <es.riojateam.riojapastview.CompassView
+       android:id="@+id/mycompassview"
+       android:layout_width="@dimen/brujula_width_land"
+       android:layout_height="@dimen/brujula_height_land"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"  
+       android:layout_marginLeft="@dimen/brujula_left_land_margin"
+       android:layout_marginBottom="@dimen/brujula_bottom_land_margin"
+        />
+   
+     <es.riojateam.riojapastview.RutaView
+       android:id="@+id/rutaView"
+       android:layout_width="@dimen/brujula_width_land"
+       android:layout_height="@dimen/brujula_height_land"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"  
+       android:layout_marginLeft="@dimen/brujula_left_land_margin"
+       android:layout_marginBottom="@dimen/brujula_bottom_land_margin"
+        />
+     
+   	 <ImageView
+       	android:id="@+id/imageViewFoto"
+       	android:layout_width="@dimen/foto_width_land"
+       	android:layout_height="@dimen/foto_height_land"
+       	android:layout_alignParentBottom="true"
+       	android:layout_alignParentLeft="true"
+       	android:adjustViewBounds="true"
+		android:layout_marginBottom="@dimen/foto_bottom_land_margin"
+		android:layout_marginLeft="@dimen/foto_left_land_margin"
+       	android:contentDescription="@string/app_name"
+       	/>
+        
+      	
+      <ImageView
+       android:id="@+id/imageViewSuperponer"
+       android:layout_width="@dimen/brujula_width_land"
+       android:layout_height="@dimen/brujula_height_land"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"  
+       android:layout_marginLeft="@dimen/brujula_left_land_margin"
+       android:layout_marginBottom="@dimen/brujula_bottom_land_margin"
+       android:contentDescription="@string/app_name"
+       />
+
+	<Button
+       android:id="@+id/buttonSimulaAcercado"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginTop="17dp"
+       android:layout_marginLeft="17dp"
+       android:text="Simula acercado" />
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/img_search_liste_item_default"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/itemListaFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11.0dip"
+        android:layout_marginTop="10.0dip"
+        android:maxWidth="88.0dip"
+        android:maxHeight="54.0dip"
+        android:minWidth="88.0dip"
+        android:minHeight="54.0dip"
+        android:contentDescription="@string/app_name"
+        android:adjustViewBounds="true"
+        
+        android:focusableInTouchMode="false"
+		android:clickable="false"
+		android:focusable="false"
+
+         />
+    
+    <!-- <ImageView android:id="@id/searchItemNonVisibleMask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11.0dip"
+        android:layout_marginTop="10.0dip"
+        android:src="@drawable/img_search_liste_item_non_visible"
+        android:maxWidth="88.0dip"
+        android:maxHeight="54.0dip"
+        android:minWidth="88.0dip"
+        android:minHeight="54.0dip" />-->
+    <TextView
+        android:id="@+id/itemListaNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110.0dip"
+        android:layout_marginTop="15.0dip"
+        android:maxWidth="190.0dip"
+        android:text="@string/app_name"
+        style="@style/TextViewSearchListeItemNomLieu"
+        android:focusableInTouchMode="false"
+		android:clickable="false"
+		android:focusable="false"
+		
+        /><!-- style="@style/TextViewSearchListeItemNomLieu"-->
+    <TextView
+        android:id="@+id/itemListaEpoca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110.0dip"
+        android:layout_marginTop="45.0dip"
+        android:maxWidth="160.0dip"
+        android:text="@string/app_name"
+        style="@style/TextViewSearchListeItemInfos"
+        android:focusableInTouchMode="false"
+		android:clickable="false"
+		android:focusable="false"
+		
+         /> <!--style="@style/TextViewSearchListeItemInfos"-->
+    <TextView
+        android:id="@+id/itemListaDistancia"
+        android:gravity="center_horizontal"   
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_alignParentRight="true" 
+        android:text="@string/app_name"
+        style="@style/TextViewSearchListeItemInfos"
+        android:focusableInTouchMode="false"
+		android:clickable="false"
+		android:focusable="false"
+		android:visibility="invisible"
+         /><!--style="@style/TextViewSearchListeItemInfos"-->
+</RelativeLayout>

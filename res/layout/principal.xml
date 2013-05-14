@@ -1,0 +1,242 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="end"
+    android:background="@drawable/img_home_background_2"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageViewMadera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:adjustViewBounds="true"
+        android:src="@drawable/madera_panel"
+        android:contentDescription="@string/app_name"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewLogotipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logotipo"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="0dip"
+        android:layout_marginRight="0dip"
+        />
+	<ImageView
+        android:id="@+id/imageViewRadar"
+        android:layout_width="@dimen/radar_width"
+        android:layout_height="@dimen/radar_height"
+        android:contentDescription="@string/app_name"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/radar_left_margin"
+        android:layout_marginBottom="@dimen/radar_bottom_margin"
+        android:background="@color/black"
+
+        />
+	<!--         android:layout_marginLeft="@dimen/radar_left_margin"
+	 -->
+
+	<!-- Funciona galaxy nexus
+		<ImageView
+        android:id="@+id/imageViewRadar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="194.0dip"
+		android:layout_marginLeft="52.0dip"
+        android:contentDescription="@string/app_name"
+        android:adjustViewBounds="true"  
+    />
+	-->
+	
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="200"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"      
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="120.0dip"
+        android:layout_marginBottom="16.0dip"
+		android:progressDrawable="@drawable/seekbar_progress_bg"
+        android:background="@drawable/progressbar"
+        android:paddingTop="1dip"
+        android:paddingBottom="1dip"
+        android:paddingRight="5dip"
+        android:paddingLeft="5dip"   
+        />
+    <!-- android:layout_marginTop="470.0dip"  -->
+    <!--
+    android:progress="50"
+    android:progressDrawable="@drawable/progressbar_fill"
+     -->
+
+    <ImageView
+        android:id="@+id/imageViewDisplayMetros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" 
+		android:layout_marginBottom="25dip"
+		android:layout_marginRight="35dip"
+        android:src="@drawable/display"
+        android:contentDescription="@string/app_name"
+   />
+    <!-- android:layout_marginTop="430.0dip" -->
+  <TextView
+        android:id="@+id/textViewDisplayMetros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/imageViewDisplayMetros"
+        android:layout_alignTop="@id/imageViewDisplayMetros"
+        android:layout_marginTop="8.75dip"
+        android:layout_marginLeft="15.25dip"
+        style="@style/FuenteGrandeGris"
+        android:textIsSelectable="false"
+   />
+    
+   <es.riojateam.riojapastview.HorizontalListView
+  	android:id="@+id/listview"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_centerHorizontal="true"
+  	android:layout_below="@id/imageViewLogotipo"
+  	android:layout_above="@id/imageViewMadera"
+  	android:clickable="true"
+  	android:descendantFocusability="blocksDescendants"
+  	
+  />
+   
+   	<ImageView
+	    android:id="@+id/imageViewGps"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@id/imageViewDisplayMetros"
+	    android:layout_alignLeft="@id/imageViewDisplayMetros"
+	    android:maxWidth="10dip"
+        android:maxHeight="10dip"
+        android:contentDescription="@string/app_name"
+	    android:adjustViewBounds="true"
+	    android:layout_marginBottom="10dip"
+	    android:layout_marginLeft="10dip"
+	    android:src="@drawable/led_circle_red"
+	    
+	    />
+
+	<ImageView
+	    android:id="@+id/imageViewInternet"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:maxWidth="10dip"
+        android:maxHeight="10dip"
+        android:contentDescription="@string/app_name"
+	    android:adjustViewBounds="true"
+	    android:layout_above="@id/imageViewGps"
+	    android:layout_alignLeft="@id/imageViewGps"
+	    android:layout_marginBottom="10dip"
+	    android:src="@drawable/led_circle_red"
+	    
+	    />
+
+
+
+	<TextView
+	    android:id="@+id/textInternet"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/imageViewInternet"
+	    android:layout_alignBottom="@id/imageViewInternet"
+	    android:layout_marginBottom="0dip"
+	    android:layout_marginLeft="5dip"
+	    android:padding="0dip"
+	    style="@style/FuenteGrandeNegroNegrita"
+	    android:textIsSelectable="false"
+	    android:text="@string/disponibleInternet"
+	    />
+
+	<TextView
+	    android:id="@+id/textGps"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/imageViewGps"
+	    android:layout_alignBottom="@id/imageViewGps"
+	    android:layout_marginLeft="5dip"
+	    android:layout_marginBottom="0dip"
+	    android:padding="0dip"
+		style="@style/FuenteGrandeNegroNegrita"
+	    android:textIsSelectable="false"
+	    android:text="@string/disponibleGPS"
+	   />
+	
+	<TextView
+	    android:id="@+id/textSeleccionDistancia"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@id/seekBar"
+	    android:layout_above="@id/seekBar"
+		style="@style/FuenteGrandeNegroNegrita"
+	    android:textIsSelectable="false"
+	    android:text="@string/distanciaNotificacion"
+	   />
+	
+	   <ImageButton
+			android:id="@+id/buttonYoutube"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:layout_alignParentLeft="true"
+			android:layout_alignTop="@id/imageViewLogotipo"
+			android:layout_margin="0dip"
+			android:background="#40000000"
+			android:src="@drawable/youtube_50"
+			android:minHeight="40dip"
+			android:minWidth="40dip"
+			android:padding="0dip"
+			android:contentDescription="@string/app_name"
+	       />
+		<ImageButton
+				android:id="@+id/buttonFacebook"
+				android:layout_width="40dip"
+				android:layout_height="40dip"
+				android:layout_alignParentRight="true"
+				android:layout_alignTop="@id/imageViewLogotipo"
+				android:layout_margin="0dip"
+				android:background="#50000000"
+				android:src="@drawable/facebook_50"
+				android:minHeight="40dip"
+				android:minWidth="40dip"
+				android:padding="0dip"
+				android:contentDescription="@string/app_name"
+	       />
+		
+		<ImageButton
+			android:id="@+id/buttonTwitter"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:layout_alignParentRight="true"
+			android:layout_below="@id/buttonFacebook"
+			android:layout_margin="0dip"
+			android:background="#50000000"
+			android:minHeight="40dip"
+			android:minWidth="40dip"
+			android:src="@drawable/twitter_50"
+			android:padding="0dip"
+			android:contentDescription="@string/app_name"
+	       />
+
+</RelativeLayout>

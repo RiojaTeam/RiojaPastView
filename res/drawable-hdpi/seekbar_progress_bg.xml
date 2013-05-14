@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <clip>
+            <shape>
+                <gradient
+            		android:startColor="#C7BA6B"
+					android:centerColor="#C7BA6B"
+					android:endColor="#C7BA6B"
+                    android:angle="270.0"
+                    android:centerY="0.1"
+                     /><!-- C6BA72 -->
+            </shape>
+
+					<!--
+					android:startColor="#ff5e8ea3"
+                    android:endColor="#ff13729e"
+                    android:centerColor="#ff32a0d2"
+                     -->
+        </clip>
+    </item>
+    <item>
+        <clip>
+            <bitmap
+                android:gravity="left"
+                android:src="@drawable/stripe_bg"
+                android:antialias="true"
+                android:filter="false"
+                android:dither="false"
+                android:tileMode="repeat"
+            />
+        </clip>
+    </item>
+</layer-list>

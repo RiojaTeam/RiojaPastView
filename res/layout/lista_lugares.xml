@@ -1,0 +1,32 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="vertical"
+         android:background="@drawable/img_home_background_2"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:paddingLeft="0dp"
+         android:paddingRight="0dp">
+
+     <ListView 	android:id="@android:id/list"
+               	android:layout_width="match_parent"
+               	android:layout_height="match_parent"
+               
+               	android:layout_weight="1"
+               	android:drawSelectorOnTop="true"
+               	
+               	android:listSelector="@drawable/list_selector"
+               	android:cacheColorHint="@color/Blanco"
+               	
+               	android:clickable="false"
+               	android:descendantFocusability="blocksDescendants"
+               	/>
+     
+				<!-- android:background="@color/custom_theme_color"  -->
+     <TextView
+         android:id="@android:id/empty"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@color/custom_theme_color"
+         android:text="@string/empty"
+         android:textColor="@color/Blanco" />
+
+ </LinearLayout>

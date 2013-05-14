@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RiojaPastView</string>
+    <string name="action_settings">Configuración</string>
+    <string name="textBienvenida">Aplicación RiojaPastView de RiojaTeam</string>
+    <string name="buttonMapa">Mapa</string>
+    <string name="buttonLista">Lista</string>
+    <string name="logo_content_description">Boceto del logo de la aplicación</string>
+    <string name="empty">No hay lugares</string>
+    <string name="large_text">Large Text</string>
+    <string name="lista">Lista</string>
+    <string name="mapa">Mapa</string>
+    <string name="configuracion">Configuración</string>
+	<string name="not_support_gps">GPS provider not supported</string>   
+	<string name="satelite">Satélite</string>
+	<string name="callejero">Callejero</string>
+	<string name="reiniciar_mapa">Reiniciar</string>
+	<string name="superponer">Superponer</string>
+	<string name="acerca_de">Acerca de</string>
+	<string name="disponibleGPS">GPS</string>
+	<string name="disponibleInternet">Internet</string>
+	<string name="distanciaNotificacion">Distancia de notificación</string>
+	<string name="aceptar">Aceptar</string>
+	<string name="cancelar">Cancelar</string>
+		
+</resources>

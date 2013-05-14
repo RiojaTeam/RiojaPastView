@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/superponer_01" android:duration="100"/>
+	<item android:drawable="@drawable/superponer_02" android:duration="100" />
+	<item android:drawable="@drawable/superponer_03" android:duration="100" />
+	<item android:drawable="@drawable/superponer_04" android:duration="100" />
+	<item android:drawable="@drawable/superponer_05" android:duration="100" />
+	<item android:drawable="@drawable/superponer_06" android:duration="100" />
+	<item android:drawable="@drawable/superponer_07" android:duration="100" />
+	<item android:drawable="@drawable/superponer_08" android:duration="100" />
+	<item android:drawable="@drawable/superponer_09" android:duration="100" />
+	<item android:drawable="@drawable/superponer_10" android:duration="100" />
+    <item android:drawable="@drawable/superponer_11" android:duration="100"/>
+	<item android:drawable="@drawable/superponer_12" android:duration="100" />
+	<item android:drawable="@drawable/superponer_13" android:duration="100" />
+	<item android:drawable="@drawable/superponer_14" android:duration="100" />
+	<item android:drawable="@drawable/superponer_15" android:duration="100" />
+	<item android:drawable="@drawable/superponer_16" android:duration="100" />
+	<item android:drawable="@drawable/superponer_17" android:duration="100" />
+	<item android:drawable="@drawable/superponer_18" android:duration="100" />
+	<item android:drawable="@drawable/superponer_19" android:duration="100" />
+	<item android:drawable="@drawable/superponer_20" android:duration="100" />
+	<item android:drawable="@drawable/superponer_21" android:duration="100"/>
+	<item android:drawable="@drawable/superponer_22" android:duration="100" />
+	<item android:drawable="@drawable/superponer_23" android:duration="100" />
+	<item android:drawable="@drawable/superponer_24" android:duration="100" />
+	<item android:drawable="@drawable/superponer_25" android:duration="100" />
+	<item android:drawable="@drawable/superponer_26" android:duration="100" />
+	<item android:drawable="@drawable/superponer_27" android:duration="100" />
+	<item android:drawable="@drawable/superponer_28" android:duration="100" />
+	<item android:drawable="@drawable/superponer_29" android:duration="100" />
+	<item android:drawable="@drawable/superponer_30" android:duration="100" />
+    <item android:drawable="@drawable/superponer_31" android:duration="100"/>
+	<item android:drawable="@drawable/superponer_32" android:duration="100" />
+	<item android:drawable="@drawable/superponer_33" android:duration="100" />
+	<item android:drawable="@drawable/superponer_34" android:duration="100" />
+	<item android:drawable="@drawable/superponer_35" android:duration="100" />
+	<item android:drawable="@drawable/superponer_36" android:duration="100" />
+	<item android:drawable="@drawable/superponer_37" android:duration="100" />
+	<item android:drawable="@drawable/superponer_38" android:duration="100" />
+	<item android:drawable="@drawable/superponer_39" android:duration="100" />
+	<item android:drawable="@drawable/superponer_40" android:duration="100" />
+    <item android:drawable="@drawable/superponer_41" android:duration="100"/>
+	<item android:drawable="@drawable/superponer_42" android:duration="100" />
+	<item android:drawable="@drawable/superponer_43" android:duration="100" />
+	<item android:drawable="@drawable/superponer_44" android:duration="100" />
+	<item android:drawable="@drawable/superponer_45" android:duration="100" />
+	<item android:drawable="@drawable/superponer_46" android:duration="100" />
+	<item android:drawable="@drawable/superponer_47" android:duration="100" />
+	<item android:drawable="@drawable/superponer_48" android:duration="100" />
+	<item android:drawable="@drawable/superponer_49" android:duration="100" />
+	<item android:drawable="@drawable/superponer_50" android:duration="100" />
+    <item android:drawable="@drawable/superponer_51" android:duration="100"/>
+	<item android:drawable="@drawable/superponer_52" android:duration="100" />
+	<item android:drawable="@drawable/superponer_53" android:duration="100" />
+	<item android:drawable="@drawable/superponer_54" android:duration="100" />
+	<item android:drawable="@drawable/superponer_55" android:duration="100" />
+	<item android:drawable="@drawable/superponer_56" android:duration="100" />
+	<item android:drawable="@drawable/superponer_57" android:duration="100" />
+	<item android:drawable="@drawable/superponer_58" android:duration="100" />
+	<item android:drawable="@drawable/superponer_59" android:duration="100" />
+	<item android:drawable="@drawable/superponer_60" android:duration="100" />
+	<item android:drawable="@drawable/superponer_61" android:duration="100" />
+</animation-list>
